@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material/styles";
-const theme = createTheme({
+const Theme = createTheme({
   palette: {
     primary: {
       main: "#696969",
@@ -12,4 +12,4 @@ const theme = createTheme({
     fontFamily: "Roboto, Arial, sans-serif",
   },
 });
-export default theme;
+export default Theme;
